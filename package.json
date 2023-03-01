@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karthikeyanVG/resume-app.git"
+    "url": "git+https://github.com/karthikeyanVG/resume-node.git"
   },
   "keywords": [
     "resume"
@@ -16,9 +16,9 @@
   "author": "karthikeyan (pikachu)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karthikeyanVG/resume-app/issues"
+    "url": "https://github.com/karthikeyanVG/resume-node/issues"
   },
-  "homepage": "https://github.com/karthikeyanVG/resume-app#readme",
+  "homepage": "https://github.com/karthikeyanVG/resume-node#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
