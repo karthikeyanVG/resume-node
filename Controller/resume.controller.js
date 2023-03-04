@@ -43,8 +43,7 @@ exports.create = (req, res) => {
 }
 
 exports.getResume = (req, res) => {
-    var body = req.params
-
+    var body = req.body
     Resume.findOne({ email: body.email })
         .then((user) => {
             if (!user) {
