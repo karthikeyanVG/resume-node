@@ -4,7 +4,8 @@
   "description": "resume-app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,16 @@
   },
   "homepage": "https://github.com/karthikeyanVG/resume-node#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "await-to-js": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "react-secure-storage": "^1.1.0"
   }
 }
